@@ -2,7 +2,7 @@ def find_even_values(src)
 index=0
 while index <src.count do
   element_count =0
-  while element_count <src[index][element_index]
+  while element_count <src[index].count do
 if src[index[element_count].even?
   p src[index][element_count]
 else
